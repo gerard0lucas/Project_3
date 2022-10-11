@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    background-color: #0e160fe5;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 2% 6%;
+   
+color: white;
+    justify-content: space-between;
+}
+.list{
+    display: flex;
+    list-style: none;
+    margin-left: 500px;
+    font-family: Allerta;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.list-item{
+    margin: 0 15px;
+    color: rgb(249, 255, 212);
+    cursor: pointer;
+}
+.list-item:hover{
+   background-color: white; 
+   color:  #0e160fe5;
+   border-radius: 3px;
+}
+.nav-button{
+ width: 130px;
+ height: 40px;
+ background: transparent;
+ color: #28b34a;
+ border: 1px solid #28b34a;
+ font-size: 16px;
+ font-weight: bold;
+ border-radius: 5px;
+ cursor: pointer;
+ }
+ .nav-button:hover{
+    background-color: white; 
+    color:#0e160fe5;
+ }
+ .message{
+    display: flex;
+    color: #ffffff;
+    
+ }
+ .justice{
+    font-size: 65px;
+    font-family: 'Monda', sans-serif;
+    width: 50%;
+    padding: 5% 11%;
+ }
+ .hammer img{
+    width: 100%;
+ }
+ .state{
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;;
+    width: 30%;
+    padding: 8% 7%;
+    float:right;
+    font-weight: lighter;
+    margin: 5;
+    
+ }
+
+/* background-image: url(/photos/download.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    top:20px; */
